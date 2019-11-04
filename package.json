@@ -1,0 +1,14 @@
+{
+  "name": "basique-electron-ipcMain",
+  "version": "1.0.0",
+  "description": "basique application electron de communication entre les processus main et rendu",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Alban MARTEL <albanmartel.developpeur@gmail.com> (https://albanmartel.github.io/)",
+  "license": "GNU GPL",
+  "devDependencies": {
+    "electron": "latest"
+  }
+}
