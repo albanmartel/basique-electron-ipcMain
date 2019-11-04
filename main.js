@@ -10,8 +10,8 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 800, height: 600,
     autoHideMenuBar : true,
     webPreferences: {plugins: true,
-      nodeIntegration: true
-      // ,preload: path.join(__dirname, 'preload.js')
+      nodeIntegration: false,
+      preload: path.join(__dirname, 'preload.js')
     }
   })
   /*

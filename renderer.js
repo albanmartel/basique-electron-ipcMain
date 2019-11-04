@@ -29,7 +29,8 @@ ipcRenderer.send('asynchronous-message', 'ping')
 //const ipcRenderer = require('electron').ipcRenderer
 //let stock = require('./test.js').stock
 
-const {ipcRenderer} = require('electron')
+//const {ipcRenderer} = require('electron')
+const ipcRenderer = window.ipcRenderer
 
 function eventActivate(arg1, arg2){
   arg1.innerHTML = arg2
