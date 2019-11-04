@@ -14,15 +14,6 @@ git clone https://github.com/albanmartel/basique-electron-ipcMain.git
 node install
 ```
 
-## Important
-
-Depuis la dernière version pour que ipc fonctionne il faut ajouter
-
-```terminal
-new BrowserWindow({webPreferences: {nodeIntegration: true}})
-```
-
-
 ## Démarrer application
 
 ```terminal
