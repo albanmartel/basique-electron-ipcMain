@@ -8,11 +8,17 @@ let mainWindow = null
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600,
+    autoHideMenuBar : true,
     webPreferences: {plugins: true,
       nodeIntegration: true
       // ,preload: path.join(__dirname, 'preload.js')
     }
   })
+  /*
+  // Afficher les outils de développements dans la fenêter électron
+  // disponible aussi via Ctrl+Shift+I
+  mainWindow.webContents.openDevTools()
+  */
 
 
   // and load the index.html of the app.
